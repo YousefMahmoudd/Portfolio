@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youssef Mahmoud | QA Portfolio</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f4f6f8;
+  color:#333;
+}
+header{
+  background:#1f2937;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+  position: relative;
+}
+header h1{
+  margin:0;
+  font-size:32px;
+  animation: fadeInDown 1s ease;
+}
+header p{
+  margin-top:10px;
+  font-size:18px;
+  color:#d1d5db;
+  animation: fadeInDown 1s ease 0.2s;
+}
+header a{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:#3b82f6;
+  color:white;
+  border-radius:5px;
+  text-decoration:none;
+  font-weight:bold;
+  transition: transform 0.3s, background 0.3s;
+}
+header a:hover{
+  background:#2563eb;
+  transform: scale(1.05);
+}
+
+nav{
+  background:#111827;
+  padding:10px;
+  text-align:center;
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+  font-weight:bold;
+  transition: color 0.3s;
+}
+nav a:hover{
+  color:#60a5fa;
+}
+
+section{
+  padding:40px 10%;
+}
+.section-title{
+  font-size:26px;
+  margin-bottom:20px;
+  border-left:5px solid #3b82f6;
+  padding-left:10px;
+}
+
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.project-card{
+  background:white;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover{
+  transform: scale(1.03);
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+.project-card h3{
+  margin-top:0;
+}
+.project-card a{
+  display:block;
+  margin-top:8px;
+  color:#2563eb;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.skills, .techniques{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:10px;
+}
+.skill, .technique{
+  background:#3b82f6;
+  color:white;
+  padding:8px 12px;
+  border-radius:5px;
+  font-size:14px;
+}
+
+footer{
+  background:#1f2937;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:30px;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {opacity:0; transform: translateY(-20px);}
+  to {opacity:1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Youssef Mahmoud</h1>
+  <p>Software Tester</p>
+  <a href="Youssef_Mahmoud_CV.pdf" download>Download CV</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#techniques">Testing Techniques</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p>
+    Software Tester with experience testing mobile applications and web applications.
+    Skilled in writing test cases, reporting bugs, performing regression testing,
+    and validating critical user flows to ensure high-quality software releases.
+  </p>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects">
+
+    <div class="project-card">
+      <h3>Parking Management App</h3>
+      <p>Tested parking booking flow and entrance/exit gate system.</p>
+      <a href="https://must.dev2.tqnia.me/" target="_blank">Visit Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Ha'gar Car Rental App</h3>
+      <p>Tested booking flow, vehicle availability, and reservation management.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.h2gr.h2grUser&hl=en" target="_blank">View on Google Play</a>
+      <a href="https://apps.apple.com/eg/app/hagar-car-rental/id6753946493" target="_blank">View on App Store</a>
+      <a href="https://haagarcarrental.com/en" target="_blank">Visit Landing Page</a>
+    </div>
+
+    <div class="project-card">
+      <h3>CarFI Owner App</h3>
+      <p>Tested car management features for owners including vehicle listing and booking control.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.carFI.CarFIOwner&hl=en" target="_blank">View on Google Play</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Home and Car Project</h3>
+      <p>Tested mobile application for listing, booking, and managing home and car services. Verified functionality, booking flow, and admin dashboard integration.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.tqniait.homeandcars&hl=en" target="_blank">View on Google Play</a>
+      <a href="https://homecar-ltd.com/" target="_blank">Visit Landing Page</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Web Application</h3>
+      <p>Tested user roles, permissions, workflows, and system reports in a web application environment.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>E-commerce Order System</h3>
+      <p>Validated checkout flow, product management, and pricing updates.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Distribution Management System</h3>
+      <p>Tested leader, distributor, and organizer permissions and blocking logic.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills">
+    <span class="skill">Software Testing</span>
+    <span class="skill">Test Case Writing</span>
+    <span class="skill">Bug Reporting</span>
+    <span class="skill">Regression Testing</span>
+    <span class="skill">API Testing</span>
+    <span class="skill">Automation Testing</span>
+    <span class="skill">Selenium</span>
+    <span class="skill">Playwright</span>
+    <span class="skill">Postman</span>
+    <span class="skill">Jira</span>
+    <span class="skill">Chrome DevTools</span>
+    <span class="skill">AI Tools: Antigravity</span>
+    <span class="skill">AI Tools: Kiro</span>
+  </div>
+</section>
+
+<section id="techniques">
+  <h2 class="section-title">Testing Techniques & Process</h2>
+  <p>
+    I manage the full <strong>testing process</strong> including planning, execution, reporting, and coordination with development and stakeholders to ensure high-quality software releases.
+  </p>
+  <div class="techniques">
+    <span class="technique">Ad-hoc Testing</span>
+    <span class="technique">Exploratory Testing</span>
+    <span class="technique">Regression Testing</span>
+    <span class="technique">Functional Testing</span>
+    <span class="technique">Integration Testing</span>
+    <span class="technique">System Testing</span>
+    <span class="technique">User Acceptance Testing (UAT)</span>
+    <span class="technique">Smoke Testing</span>
+    <span class="technique">Sanity Testing</span>
+    <span class="technique">Performance Testing</span>
+    <span class="technique">Load Testing</span>
+    <span class="technique">Stress Testing</span>
+    <span class="technique">Security Testing</span>
+    <span class="technique">Compatibility Testing</span>
+    <span class="technique">Usability Testing</span>
+    <span class="technique">Alpha/Beta Testing</span>
+    <span class="technique">Adoption Testing</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <p>Email: youssefmahmoued1998@gmail.com</p>
+  <p>Phone: 01094568684</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/yousef-mahmoud-6241b518a/" target="_blank">linkedin.com/in/yousef-mahmoud</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Youssef Mahmoud | QA Portfolio</p>
+</footer>
+
+</body>
+</html>
